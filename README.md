@@ -1,4 +1,4 @@
-# rpcs
+# RPCS
 Remote Port Checking Script
 
 Verify you have nmap installed
@@ -17,9 +17,9 @@ for debian flavors, try:
 apt-get install -y nmap
 ```
 
-Now add the IP's or dns entries you want to test to server-list and execute the script with ./nmap.txt
+Now add the IP's or dns entries you want to test to server-list and execute the script with ```./nmap.tst```
 
-You will get a respons similiar to:
+You should see a response similar to:
 ```
 Connection to 10.25.217.228 on port 22 succeeded
 Connection to 10.211.32.192 on port 22 succeeded
